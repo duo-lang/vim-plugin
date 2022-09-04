@@ -19,7 +19,7 @@ syn region duoCnsArgList start="\[" end="]" contains=duoCnsArg
 syn match duoPrdArg '\v<\k*>' contained
 syn match duoCnsArg '\v<\k*>' contained
 
-let b:current_syntax = "duo-lang"
+let b:current_syntax = "duo"
 
 hi def link duoKeyword Keyword
 hi def link duoLit Number
