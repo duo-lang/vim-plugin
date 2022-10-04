@@ -4,7 +4,7 @@ if exists("b:current_syntax")
 endif
 
 "syn keyword duoKeyword match comatch prd cns cmd def with Done Print forall data codata rec mu
-syn keyword duoKeyword case cocase def of forall data codata rec mu import return set Top Bot CBV CBN refinement constructor destructor type operator at leftassoc rightassoc cmd prd cns class instance
+syn keyword duoKeyword case cocase def of forall data codata rec mu import module return set Top Bot CBV CBN refinement constructor destructor type operator at leftassoc rightassoc cmd prd cns class instance
 syn match duoKeyword '#[A-Z][a-zA-Z0-9]*'
 
 "syn match duoSymbs ':=\|=>\|>>\|\\/\|/\\\|<:\|<<:\|:>>'
